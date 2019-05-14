@@ -65,6 +65,7 @@
       <DependentUpon>Spielfeld.cs</DependentUpon>
     </Compile>
     <Compile Include="statistik.cs" />
+    <Compile Include="Steuerung.cs" />
     <EmbeddedResource Include="Konfig_Form.resx">
       <DependentUpon>Konfig_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +78,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Spielfeld.resx">
+      <DependentUpon>Spielfeld.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="config.xsd">
       <SubType>Designer</SubType>
     </None>

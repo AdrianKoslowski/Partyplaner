@@ -15,9 +15,12 @@ namespace Partyplaner
         [STAThread]
         static void Main()
         {
-           ImportExportHelper ImportHelper = ImportExportHelper.getImportExportHelper();
            
-           Console.WriteLine(ImportHelper.GetGast("Marco Polo").beruf);
+            Spielfeld feld = new Spielfeld();
+           
+            Application.Run(feld);
+           
+           // Console.WriteLine(ImportHelper.GetGast("Marco Polo").beruf);
         }
     }
 }
