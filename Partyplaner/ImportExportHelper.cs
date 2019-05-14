@@ -58,6 +58,7 @@ namespace Partyplaner
             }
             catch (FileNotFoundException ex)
             {
+                Console.WriteLine(ex);
                 // Noch keine Konfiguration vorhanden
                 return;
             }
@@ -102,7 +103,7 @@ namespace Partyplaner
 			var gaestelisteNode = new XElement("gaesteliste");
 			configRoot.Add(gaestelisteNode);
 
-			foreach (Gast eachGast in gaesteliste)
+			foreach (Gast eachGast in gaesteliste.Values)
 			{
 				gaestelisteNode.Add(CreateXmlNodeForGast(eachGast));
 			}
@@ -118,7 +119,7 @@ namespace Partyplaner
 
 			configRoot.Save(XML_PATH);
             Close();
-		}
+        }
 
         public void setTischPosition(int x, int y) 
         {

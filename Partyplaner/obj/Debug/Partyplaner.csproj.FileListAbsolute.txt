@@ -1,0 +1,6 @@
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.csprojAssemblyReference.cache
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.Konfig_Form.resources
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.Properties.Resources.resources
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.Spielfeld.resources
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.csproj.GenerateResource.cache
+D:\DHBW-Stuff\Projekte\SoftwareEngineering\Code\Partyplaner\obj\Debug\Partyplaner.csproj.CoreCompileInputs.cache

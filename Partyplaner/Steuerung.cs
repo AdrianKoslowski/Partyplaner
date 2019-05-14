@@ -49,6 +49,10 @@ namespace Partyplaner
                 }
             }
 
+            while (true) {
+                Update();
+            }
+
 
         }
 

@@ -52,6 +52,7 @@ namespace Partyplaner
 			}
 			catch (FileNotFoundException ex)
 			{
+                Console.WriteLine(ex);
 				// Noch keine Konfiguration vorhanden
 				return;
 			}
